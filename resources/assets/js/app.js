@@ -1,4 +1,3 @@
-
 /**
  * First we will load all of this project's JavaScript dependencies which
  * include Vue and Vue Resource. This gives a great starting point for
@@ -13,7 +12,10 @@ require('./bootstrap');
  * the application, or feel free to tweak this setup for your needs.
  */
 
-Vue.component('example', require('./components/Example.vue'));
+Vue.component('headermenu', require('./components/Header.vue'));
+Vue.component('slider', require('./components/Slider.vue'));
+Vue.component('customfooter', require('./components/Footer.vue'));
+Vue.component('counters', require('./components/Counters.vue'));
 
 const app = new Vue({
     el: '#app'
