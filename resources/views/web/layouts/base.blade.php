@@ -26,5 +26,6 @@
     <script src="https://use.fontawesome.com/2d8c1723ba.js"></script>
 
     @include('web.partials.notification')
+    @include('web.partials.googleanalytics')
 </body>
 </html>
