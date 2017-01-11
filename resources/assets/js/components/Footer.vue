@@ -4,10 +4,11 @@
             <div class="columns">
                 <div class="column is-one-quarter ">
                     <ul>
-                        <li><a href="">Inicio</a></li>
-                        <li><a href="">¿Qué es?</a></li>
-                        <li><a href="">Galería</a></li>
-                        <li><a href="">Protectora</a></li>
+                        <li><a href="/">Inicio</a></li>
+                        <li><a href="#que-es">¿Qué es?</a></li>
+                        <li><a href="#caracteristicas">Características</a></li>
+                        <li><a href="#galeria">Galería</a></li>
+                        <li><a href="#protectoras">Protectora</a></li>
                         <li><a href="">Contacto</a></li>
                     </ul>
                 </div>
