@@ -1,5 +1,5 @@
 <template>
-    <div class="container whatis">
+    <div id="que-es" class="container whatis">
         <div class="columns">
             <div class="column is-half">
                 <h3>¿Qué es ProteCMS?</h3>

@@ -14,19 +14,19 @@
             </span>
 
             <div class="nav-right nav-menu">
-                <a class="nav-item">
+                <a href="#que-es" class="nav-item">
                     ¿Qué es?
                 </a>
-                <a class="nav-item">
+                <a href="#caracteristicas" class="nav-item">
                     Características
                 </a>
-                <a class="nav-item">
+                <a href="#galeria" class="nav-item">
                     Galería
                 </a>
-                <a href="" class="nav-item">
+                <a href="#protectoras" class="nav-item">
                     Protectoras
                 </a>
-                <a href="" class="nav-item">
+                <a href="#contacto" class="nav-item">
                     Contacto
                 </a>
             </div>

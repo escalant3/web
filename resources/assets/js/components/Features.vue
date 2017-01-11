@@ -1,5 +1,5 @@
 <template>
-    <div class="features container">
+    <div id="caracteristicas" class="features container">
         <h3 class="has-text-centered">
             Todas las características que necesita una protectora
         </h3>

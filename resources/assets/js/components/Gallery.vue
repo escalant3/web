@@ -1,5 +1,5 @@
 <template>
-    <div class="gallery">
+    <div id="galeria" class="gallery">
         <div class="container">
             
             <h3 class="has-text-centered">
