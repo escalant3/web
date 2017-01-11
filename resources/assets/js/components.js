@@ -6,3 +6,4 @@ Vue.component('customfooter', require('./components/Footer.vue'));
 Vue.component('counters', require('./components/Counters.vue'));
 Vue.component('gallery', require('./components/Gallery.vue'));
 Vue.component('shelters', require('./components/Shelter.vue'));
+Vue.component('contact', require('./components/Contact.vue'));

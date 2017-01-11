@@ -9,7 +9,7 @@
                         <li><a href="#caracteristicas">Características</a></li>
                         <li><a href="#galeria">Galería</a></li>
                         <li><a href="#protectoras">Protectora</a></li>
-                        <li><a href="">Contacto</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
                     </ul>
                 </div>
                 <div class="column is-one-quarter">

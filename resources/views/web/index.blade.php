@@ -8,5 +8,6 @@
     <features></features>
     <gallery></gallery>
     <shelters></shelters>
+    <contact></contact>
 
 @endsection
