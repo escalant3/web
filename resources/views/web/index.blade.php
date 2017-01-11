@@ -7,5 +7,6 @@
     <counters></counters>
     <features></features>
     <gallery></gallery>
+    <shelters></shelters>
 
 @endsection
