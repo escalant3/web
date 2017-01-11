@@ -7,48 +7,53 @@
             
             <div class="columns">
                 <div class="column is-8">
-                    <div class="control">
-                        <label class="label">Tus datos</label>
-                        <p class="control">
-                            <input class="input" type="text" placeholder="Nombre">
-                        </p> 
-                    </div>
-                    <div class="control">
-                        <label class="label">Correo electrónico</label>
-                        <p class="control">
-                            <input class="input" type="email" placeholder="Correo electrónico">
-                        </p>
-                    </div>
-                    <div class="control">
-                        <label class="label">Asunto</label>
+                    <form action="/contact" method="POST">
+                        <input type="hidden" name="_token" value="">
                         <div class="control">
-                            <div class="select is-fullwidth">
-                                <select>
-                                    <option>Obtener información</option>
-                                    <option>Somos un refugio y queremos usar ProteCMS</option>
-                                    <option>Soy desarrollador/diseñador/traductor y quiero colaborar</option>
-                                    <option>Somos una empresa y queremos colaborar con el proyecto</option>
-                                    <option>Otro asunto</option>
-                                </select>
+                            <label class="label">Tus datos</label>
+                            <p class="control">
+                                <input class="input" name="name" type="text" placeholder="Nombre" required>
+                            </p> 
+                        </div>
+                        <div class="control">
+                            <label class="label">Correo electrónico</label>
+                            <p class="control">
+                                <input class="input" name="email" type="email" placeholder="Correo electrónico" required>
+                            </p>
+                        </div>
+                        <div class="control">
+                            <label class="label">Asunto</label>
+                            <div class="control">
+                                <div class="select is-fullwidth">
+                                    <select name="subject" required>
+                                        <option>Obtener información</option>
+                                        <option>Somos un refugio y queremos usar ProteCMS</option>
+                                        <option>Soy desarrollador/diseñador/traductor y quiero colaborar</option>
+                                        <option>Somos una empresa y queremos colaborar con el proyecto</option>
+                                        <option>Otro asunto</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="control">
-                        <label class="label">Mensaje</label>
                         <div class="control">
-                            <textarea class="textarea" placeholder="Escribe tu mensaje"></textarea>
+                            <label class="label">Mensaje</label>
+                            <div class="control">
+                                <textarea class="textarea" name="message" placeholder="Escribe tu mensaje" required></textarea>
+                            </div>
                         </div>
-                    </div>
-                    <div class="control columns">
-                        <div class="column is-offset-5 is-2">
-                            <button class="button is-fullwidth is-info">
-                                Enviar
-                            </button>
+                        <div class="control columns">
+                            <div class="column is-offset-5 is-2">
+                                <button class="button is-fullwidth is-info">
+                                    Enviar
+                                </button>
+                            </div>
                         </div>
-                    </div>
+                    </form>
                 </div>
-                <div class="column is-4 contact-social">
-                    <p>También puedes contactar mediante:</p>
+                <div class="column is-4 contact-social is-hidden-mobile">
+                    <p>Puedes contactar usando el formulario de contacto de la izquierda o mediante los siguientes enlaces a las redes sociales.</p>
+                    <p>No dudes en enviarnos un mensaje, aunque solo sea para darnos una sugerencia para mejorar el proyecto, contarnos algún caso o anécdota. ¡Nos encanta leeros!</p>
+                    <hr>
                     <div class="columns">
                         <div class="column is-offset-3 is-2">
                             <a href="https://facebook.com/protecms"><span class="icon"><i class="fa fa-facebook"></i></span></a>
@@ -65,3 +70,16 @@
         </div>
     </div>
 </template>
+
+<script>
+    export default {
+        data() {
+            return {
+                token: $('meta[name="csrf-token"]').attr('content')
+            }
+        },
+        mounted() {
+            $('form input[name="_token"]').val(this.token);
+        }
+    }
+</script>

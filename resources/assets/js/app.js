@@ -6,6 +6,17 @@ const app = new Vue({
 });
 
 $(function() {
+
+    /**
+     * Responsive menu
+     */
+    $('.nav-toggle').on('click', function() {
+        $('.nav-right.nav-menu').toggleClass('is-active');
+    });
+
+    /**
+     * Smooth scroll
+     */
     $('a[href*="#"]:not([href="#"])').click(function() {
         var target = $(this.hash);
         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');

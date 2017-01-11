@@ -166,8 +166,7 @@ return [
         /*
          * Package Service Providers...
          */
-
-        //
+        BrianFaust\Mailjet\ServiceProvider::class,
 
         /*
          * Application Service Providers...

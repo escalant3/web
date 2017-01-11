@@ -30,7 +30,7 @@
                         </div>
                     </div>
                     
-                    <div class="columns is-gapless has-text-centered">
+                    <div class="columns is-gapless has-text-centered is-mobile">
                         <div class="column is-one-quarter">
                             <span class="icon is-large">
                                 <a href="https://facebook.com/protecms"><i class="fa fa-facebook" title="Facebook ProteCMS"></i></a>

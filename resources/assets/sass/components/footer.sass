@@ -1,7 +1,5 @@
 footer
-    border-top: 1px solid $border-color
-    padding: 20px 0
-    margin-top: 50px
+    padding: 30px 0
     margin-bottom: 20px
 
     ul
@@ -15,3 +13,11 @@ footer
                 &:hover,
                 &:active
                     color: $blue
+
+@media all and (max-width: 768px)
+    footer
+        ul
+            list-style: none
+
+            li
+                text-align: center
