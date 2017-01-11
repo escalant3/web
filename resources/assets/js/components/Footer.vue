@@ -13,12 +13,12 @@
                     </ul>
                 </div>
                 <div class="column is-one-quarter">
-                    <ul>
+                    <!-- <ul>
                         <li><a href="">Preguntas frecuentes</a></li>
                         <li><a href="">Política de privacidad</a></li>
                         <li><a href="">Términos y condiciones</a></li>
                         <li><a href="">Para desarrolladores</a></li>
-                    </ul>
+                    </ul> -->
                 </div>
                 <div class="column is-half">
                     <div class="columns is-gapless has-text-centered" style="margin-bottom: 20px">
