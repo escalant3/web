@@ -6,5 +6,6 @@
     <whatis></whatis>
     <counters></counters>
     <features></features>
+    <gallery></gallery>
 
 @endsection

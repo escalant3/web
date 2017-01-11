@@ -27,7 +27,7 @@
             </div>
             <div class="feature column is-one-third">
                 <h4>Libre</h4>
-                <p>El proyecto será liberado y será posible consultar su código fuente. ¿Qué ventajas ofrece esto? Cualquier persona del mundo pueda colaborar con él, ya sea en mejoras o corrección de errores.</p>
+                <p>El proyecto es libre, esto quiere decir que es posible ver su código fuente. ¿Qué ventajas ofrece esto? Cualquier persona del mundo pueda colaborar con él, ya sea en mejoras o corrección de errores.</p>
             </div>
         </div>
     </div>
