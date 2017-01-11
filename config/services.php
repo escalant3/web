@@ -35,4 +35,9 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    'mailjet' => [
+        'public' => env('MAILJET_KEY'),
+        'private' => env('MAILJET_SECRET'),
+    ],
+
 ];
