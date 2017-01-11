@@ -4,7 +4,7 @@
             Todas las características que necesita una protectora
         </h3>
 
-        <div class="columns is-multiline is-mobile">
+        <div class="columns is-multiline">
             <div class="feature column is-one-third">
                 <h4>Fácil</h4>
                 <p>Está pensado para que lo usen todo tipo de usuarios, desde los más expertos hasta los más básicos. Cualquier usuario podrá gestionar la web sin ningún tipo de problemas.</p>
