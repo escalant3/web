@@ -14,9 +14,9 @@
     "lodash": "^4.16.2",
     "vue": "^2.0.1",
     "vue-resource": "^1.0.3",
-    "bulma": "^0.3.0"
-  },
-  "dependencies": {
+    "bulma": "^0.3.0",
+    "simplelightbox": "^1.10.5",
+    "slick-carousel": "^1.6.0",
     "toastr": "^2.1.2"
   }
 }
