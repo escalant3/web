@@ -18,6 +18,10 @@
                     <img src="/images/shelters/assac.jpg" class="image" alt="">
                 </div>
                 <div class="column">
+                    <p>Gracias a ProteCMS tenemos la visibilidad que necesitamos en Internet.</p>
+                    <img src="/images/shelters/acogidafelina.png" class="image" alt="">
+                </div>
+                <div class="column">
                     <p>Con ProteCMS podemos poner voz a los que no tienen para darles calidad de vida.</p>
                     <img src="/images/shelters/moguda.jpg" class="image" alt="">
                 </div>
