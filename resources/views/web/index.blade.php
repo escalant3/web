@@ -8,6 +8,7 @@
     <features></features>
     <gallery></gallery>
     <shelters></shelters>
+    <demo></demo>
     <feedback></feedback>
     <contact></contact>
 

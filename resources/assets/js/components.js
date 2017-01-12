@@ -8,3 +8,4 @@ Vue.component('gallery', require('./components/Gallery.vue'));
 Vue.component('shelters', require('./components/Shelter.vue'));
 Vue.component('contact', require('./components/Contact.vue'));
 Vue.component('feedback', require('./components/Feedback.vue'));
+Vue.component('demo', require('./components/Demo.vue'));
