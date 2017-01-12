@@ -8,6 +8,17 @@ const app = new Vue({
 $(function() {
 
     /**
+     * Feedback slider
+     */
+    $('.feedback .container .columns').slick({
+        autoplay: true,
+        autoplaySpeed: 6000,
+        speed: 700,
+        prevArrow: '<button type="button" class="slick-prev button is-hidden-mobile is-small"><i class="fa fa-arrow-left"></i></button>',
+        nextArrow: '<button type="button" class="slick-next button is-hidden-mobile is-small"><i class="fa fa-arrow-right"></i></button>'
+    });
+
+    /**
      * Lightbox
      */
     $('.gallery .tile .content a').simpleLightbox({});
