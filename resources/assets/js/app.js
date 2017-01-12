@@ -8,6 +8,11 @@ const app = new Vue({
 $(function() {
 
     /**
+     * Lightbox
+     */
+    $('.gallery .tile .content a').simpleLightbox({});
+
+    /**
      * Responsive menu
      */
     $('.nav-toggle').on('click', function() {

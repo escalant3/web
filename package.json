@@ -17,6 +17,7 @@
     "bulma": "^0.3.0"
   },
   "dependencies": {
+    "simplelightbox": "^1.10.5",
     "toastr": "^2.1.2"
   }
 }

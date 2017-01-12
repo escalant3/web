@@ -7,6 +7,8 @@ require('vue-resource');
 
 window.toastr = require('toastr');
 
+window.simpleLightbox = require('simplelightbox');
+
 Vue.http.interceptors.push((request, next) => {
     request.headers.set('X-CSRF-TOKEN', Laravel.csrfToken);
 
