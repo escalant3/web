@@ -6,7 +6,7 @@
                     ¿Quieres ver una demostración del proyecto?
                 </div>
                 <div class="column is-3">
-                    <a href="http://demo.protecms.com" class="button is-pulled-right is-medium">Ver demostración</a>
+                    <a href="http://demo.protecms.com" class="button is-pulled-right is-medium" target="_blank">Ver demostración</a>
                 </div>
             </div>
         </div>
