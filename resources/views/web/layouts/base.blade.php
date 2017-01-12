@@ -1,3 +1,16 @@
+<!--
+
+Bienvenido <3
+
+Este proyecto es libre: https://github.com/protecms
+Creado por Jaime Sares <http://jaimesares.com>
+
+   /\„,„/\          //^ ^\\
+   ( =';'=)        (/(_•_)\)
+   /*♥♥*\         _/''*''\_
+  (.|.|.|.|.)…   (,,,)^(,,,) 
+
+-->
 <!doctype html>
 <html lang="es">
 <head>
@@ -8,6 +21,7 @@
     <title>ProteCMS - El gestor gratuito para protectoras de animales</title>
     <meta name="description" content="ProteCMS es un gestor para protectoras y refugios de animales gratuito, donde cualquier protectora podrá tener una web totalmente gratis.">
     <meta name="robots" content="index,follow" />
+    <meta name="author" content="Jaime Sares" />
 
     <!-- OpenGraph metadata-->
     <meta property="og:locale" content="es_ES" />
@@ -18,6 +32,7 @@
     <meta property="og:site_name" content="ProteCMS" />
     <meta property="og:image" content="http://protecms.com/images/logos/logo@0.5x.png" />
     <meta property='fb:admins' content='129003970628056'/>
+
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:description" content="ProteCMS es un gestor para protectoras y refugios de animales gratuito, donde cualquier protectora podrá tener una web totalmente gratis."/>
     <meta name="twitter:title" content="ProteCMS - El gestor gratuito para protectoras de animales"/>
@@ -36,7 +51,7 @@
 
         @yield('content')
 
-        <customfooter></footer>
+        <customfooter></customfooter>
 
     </div>
 
