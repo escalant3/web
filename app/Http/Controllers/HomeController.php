@@ -19,6 +19,38 @@ class HomeController extends Controller
     }
 
     /**
+     * @return \Illuminate\View\View
+     */
+    public function faq()
+    {
+        return view('web.faq');
+    }
+
+    /**
+     * @return \Illuminate\View\View
+     */
+    public function terms()
+    {
+        return view('web.terms');
+    }
+
+    /**
+     * @return \Illuminate\View\View
+     */
+    public function policy()
+    {
+        return view('web.policy');
+    }
+
+    /**
+     * @return \Illuminate\View\View
+     */
+    public function devs()
+    {
+        return view('web.devs');
+    }
+
+    /**
      * @return \Illuminate\Http\RedirectResponse
      */
     public function contact(Request $request)

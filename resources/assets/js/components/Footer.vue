@@ -5,19 +5,19 @@
                 <div class="column is-one-quarter ">
                     <ul>
                         <li><a href="/">Inicio</a></li>
-                        <li><a href="#que-es">¿Qué es?</a></li>
-                        <li><a href="#caracteristicas">Características</a></li>
-                        <li><a href="#galeria">Galería</a></li>
-                        <li><a href="#protectoras">Protectora</a></li>
-                        <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="/#que-es">¿Qué es?</a></li>
+                        <li><a href="/#caracteristicas">Características</a></li>
+                        <li><a href="/#galeria">Galería</a></li>
+                        <li><a href="/#protectoras">Protectora</a></li>
+                        <li><a href="/#contacto">Contacto</a></li>
                     </ul>
                 </div>
                 <div class="column is-one-quarter">
                     <ul>
-                        <li><a href="">Preguntas frecuentes</a></li>
-                        <li><a href="">Política de privacidad</a></li>
-                        <li><a href="">Términos y condiciones</a></li>
-                        <li><a href="">Para desarrolladores</a></li>
+                        <li><a href="/preguntas-frecuentes">Preguntas frecuentes</a></li>
+                        <li><a href="/politica-de-privacidad">Política de privacidad</a></li>
+                        <li><a href="/terminos-y-condiciones">Términos y condiciones</a></li>
+                        <li><a href="/desarrolladores">Para desarrolladores</a></li>
                     </ul>
                 </div>
                 <div class="column is-half">
