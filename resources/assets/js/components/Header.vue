@@ -29,6 +29,15 @@
                 <a href="#contacto" class="nav-item">
                     Contacto
                 </a>
+                <a href="http://facebook.com/protecms" target="_blank" class="nav-item">
+                    <i class="fa fa-facebook"></i>&nbsp;<span class="is-hidden-tablet">Facebook</span>
+                </a>
+                <a href="http://twitter.com/protecms" target="_blank" class="nav-item">
+                    <i class="fa fa-twitter"></i>&nbsp;<span class="is-hidden-tablet">Twitter</span>
+                </a>
+                <a href="http://github.com/protecms" target="_blank" class="nav-item">
+                    <i class="fa fa-github"></i>&nbsp;<span class="is-hidden-tablet">Github</span>
+                </a>
             </div>
         </div>
     </nav>
