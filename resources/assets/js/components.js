@@ -9,3 +9,7 @@ Vue.component('shelters', require('./components/Shelter.vue'));
 Vue.component('contact', require('./components/Contact.vue'));
 Vue.component('feedback', require('./components/Feedback.vue'));
 Vue.component('demo', require('./components/Demo.vue'));
+Vue.component('faq', require('./components/Faq.vue'));
+Vue.component('terms', require('./components/Terms.vue'));
+Vue.component('policy', require('./components/Policy.vue'));
+Vue.component('devs', require('./components/Devs.vue'));

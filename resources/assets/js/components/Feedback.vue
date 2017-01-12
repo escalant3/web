@@ -26,7 +26,7 @@
                     <img src="/images/shelters/moguda.jpg" class="image" alt="">
                 </div>
                 <div class="column">
-                    <p>Una herramienta básica para cualquier protectora de animales. En algún momento alguno de nosotros a estado buscando este tipo de gestión.</p>
+                    <p>Una herramienta básica para cualquier protectora de animales. En algún momento alguno de nosotros ha estado buscando este tipo de gestión.</p>
                     <img src="/images/shelters/proyectocuatropatas.jpg" class="image" alt="">
                 </div>
             </div>
