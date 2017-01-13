@@ -30,7 +30,7 @@
         },
         {
             question: '¿Cualquiera puede usar el proyecto?',
-            answer: 'No. El proyecto solo puede ser usado por protectoras y refugios (no tienen por qué que estar dados de alta ni tener un refugio como tal, hay muchos que funcionan con casas de acogida) que <u><strong>no tengan ánimo de lucro</strong></u>. Es el único requisito.'
+            answer: 'No. El proyecto solo puede ser usado por protectoras y refugios (no tienen por que estar dados de alta ni tener un refugio como tal, hay muchos que funcionan con casas de acogida) que <u><strong>no tengan ánimo de lucro</strong></u>. Es el único requisito.'
         },
         {
             question: '¿Es seguro usar el proyecto?',
