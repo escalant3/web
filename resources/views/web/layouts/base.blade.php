@@ -31,7 +31,7 @@ Creado por Jaime Sares <http://jaimesares.com>
     <meta property="og:url" content="http://protecms.com" />
     <meta property="og:site_name" content="ProteCMS" />
     <meta property="og:image" content="http://protecms.com/images/logos/logo@0.5x.png" />
-    <meta property='fb:admins' content='129003970628056'/>
+    <meta property='fb:app_id' content='129003970628056'/>
 
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:description" content="ProteCMS es un gestor para protectoras y refugios de animales gratuito, donde cualquier protectora podrá tener una web totalmente gratis."/>
