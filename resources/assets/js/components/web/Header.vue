@@ -20,7 +20,7 @@
                 <a href="/#caracteristicas" class="nav-item">
                     Características
                 </a>
-                <a href="/#galeria" class="nav-item">
+                <a href="/#galeria" class="nav-item is-hidden-touch">
                     Galería
                 </a>
                 <a href="/#protectoras" class="nav-item">
@@ -28,6 +28,9 @@
                 </a>
                 <a href="/#contacto" class="nav-item">
                     Contacto
+                </a>
+                <a href="/blog" class="nav-item">
+                    Blog
                 </a>
                 <a href="http://facebook.com/protecms" target="_blank" class="nav-item">
                     <i class="fa fa-facebook"></i>&nbsp;<span class="is-hidden-tablet">Facebook</span>
