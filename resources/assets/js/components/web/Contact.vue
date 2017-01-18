@@ -8,7 +8,7 @@
             <div class="columns">
                 <div class="column is-8">
                     <form action="/contact" method="POST">
-                        <input type="hidden" name="_token" value="">
+                        <input type="hidden" name="_token" :value="token">
                         <div class="control">
                             <label class="label">Tus datos</label>
                             <p class="control">
@@ -77,9 +77,6 @@
             return {
                 token: $('meta[name="csrf-token"]').attr('content')
             }
-        },
-        mounted() {
-            $('form input[name="_token"]').val(this.token);
         }
     }
 </script>
