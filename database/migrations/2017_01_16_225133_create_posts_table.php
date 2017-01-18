@@ -20,6 +20,7 @@ class CreatePostsTable extends Migration
             $table->string('slug')->unique();
             $table->text('body');
             $table->string('category');
+            $table->dateTime('published_at');
             $table->timestamps();
         });
     }

@@ -16,6 +16,7 @@ Vue.component('faq', require('./components/web/Faq.vue'));
 Vue.component('terms', require('./components/web/Terms.vue'));
 Vue.component('policy', require('./components/web/Policy.vue'));
 Vue.component('devs', require('./components/web/Devs.vue'));
+Vue.component('blog', require('./components/web/Blog.vue'));
 
 /**
  * Admin components
@@ -24,3 +25,8 @@ Vue.component('login', require('./components/admin/Login.vue'));
 Vue.component('adminheader', require('./components/admin/Header.vue'));
 Vue.component('adminfooter', require('./components/admin/Footer.vue'));
 Vue.component('sidebar', require('./components/admin/Sidebar.vue'));
+
+// Posts
+Vue.component('posts-index', require('./components/admin/posts/Index.vue'));
+Vue.component('posts-create', require('./components/admin/posts/Create.vue'));
+Vue.component('posts-edit', require('./components/admin/posts/Edit.vue'));

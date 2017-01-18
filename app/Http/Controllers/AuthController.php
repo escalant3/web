@@ -38,4 +38,11 @@ class AuthController extends Controller
         flash('Los datos introducidos no son correctos.', 'error');
         return redirect()->back();
     }
+
+    public function logout()
+    {
+        Auth::logout();
+
+        return redirect()->route('login');
+    }
 }

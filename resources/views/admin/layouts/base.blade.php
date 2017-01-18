@@ -9,7 +9,8 @@
     <meta name="robots" content="noindex, nofollow">
     <meta name="author" content="Jaime Sares" />
 
-    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="{{ elixir('/css/app.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.0.3/jquery-confirm.min.css">
     <link rel="icon" href="/favicon.png" type="image/png" />
 </head>
 <body>
@@ -33,8 +34,22 @@
 
     </div>
 
-    <script src="/js/app.js"></script>
+    <script src="{{ elixir('/js/app.js') }}"></script>
     <script src="https://use.fontawesome.com/2d8c1723ba.js"></script>
+    <script src="/js/ckeditor/ckeditor.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.0.3/jquery-confirm.min.js"></script>
+
+    <script>
+        if ($('#editor').length) {
+            CKEDITOR.replace('editor', {
+                language: 'es',
+                height: '500px',
+                extraPlugins: 'uploadimage,uploadwidget',
+                filebrowserUploadUrl: '{{ route('admin.upload_image', ['_token' => csrf_token()]) }}',
+                imageUploadUrl: '{{ route('admin.upload_image', ['_token' => csrf_token()]) }}'
+            });
+        }
+    </script>
 
     @include('web.partials.notification')
 </body>
