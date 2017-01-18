@@ -15,6 +15,11 @@
                 <input class="input is-expanded to-slug" type="text" name="slug" placeholder="Enlace...">
             </p>
 
+            <label class="label">Fecha de publicación</label>
+            <p class="control">
+                <input class="input" type="text" name="published_at" :value="date" placeholder="Fecha de publicación...">
+            </p>
+
             <label class="label">Categoría</label>
             <p class="control">
                 <select name="category" class="select is-fullwidth">
@@ -44,7 +49,8 @@
     export default {
         data() {
             return {
-                token: $('meta[name="csrf-token"]').attr('content')
+                token: $('meta[name="csrf-token"]').attr('content'),
+                date: new Date().toISOString()
             }
         }
     }
