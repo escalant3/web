@@ -1,5 +1,5 @@
 <template>
-    <div class="container blog page">
+    <div class="container blog">
         <h1>Blog de ProteCMS</h1>
         
         <div class="post" v-for="post in posts">
