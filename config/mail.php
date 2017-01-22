@@ -57,7 +57,7 @@ return [
 
     'from' => [
         'address' => 'web@protecms.com',
-        'name' => 'ProteCMS',
+        'name'    => 'ProteCMS',
     ],
 
     /*

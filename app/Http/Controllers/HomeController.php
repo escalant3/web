@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\Contact;
+use App\Mail\ContactConfirmation;
+use Illuminate\Http\Request;
 use Mail;
 use Validator;
-use App\Mail\Contact;
-use Illuminate\Http\Request;
-use App\Mail\ContactConfirmation;
 
 class HomeController extends Controller
 {
@@ -64,14 +64,15 @@ class HomeController extends Controller
     public function contact(Request $request)
     {
         $v = Validator::make($request->all(), [
-            'name' => 'required|max:20000',
-            'email' => 'required|email',
+            'name'    => 'required|max:20000',
+            'email'   => 'required|email',
             'subject' => 'required',
-            'message' => 'required|max:20000'
+            'message' => 'required|max:20000',
         ]);
 
         if ($v->fails()) {
-            flash('Error al enviar el formulario. <br><br>' . $v->messages()->first(), 'error');
+            flash('Error al enviar el formulario. <br><br>'.$v->messages()->first(), 'error');
+
             return redirect()->back()->withErrors($v);
         }
 

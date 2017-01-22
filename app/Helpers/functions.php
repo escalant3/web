@@ -1,13 +1,14 @@
 <?php
 
-if (! function_exists('flash')) {
+if (!function_exists('flash')) {
     /**
-     * Shown flash notification
+     * Shown flash notification.
      */
-    function flash($message, $type = 'success') {
+    function flash($message, $type = 'success')
+    {
         return session()->flash('notification', [
-            'type' => $type,
-            'message' => $message
+            'type'    => $type,
+            'message' => $message,
         ]);
     }
 }

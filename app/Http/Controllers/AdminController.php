@@ -23,14 +23,13 @@ class AdminController extends Controller
             return response()->json([
                 'uploaded' => 1,
                 'fileName' => $filename,
-                'url' => '/storage/uploads/' . $filename
+                'url'      => '/storage/uploads/'.$filename,
             ]);
         }
 
         return response()->json([
             'uploaded' => 0,
-            'error' => 'Ha ocurrido un error al subir la imagen.'
+            'error'    => 'Ha ocurrido un error al subir la imagen.',
         ]);
-        
     }
 }
