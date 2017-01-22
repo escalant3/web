@@ -5,37 +5,37 @@
             <div class="level-item has-text-centered">
                 <div>
                     <p class="heading">Protectoras</p>
-                    <p class="title">16</p>
+                    <p class="title">26</p>
                 </div>
             </div>
             <div class="level-item has-text-centered">
                 <div>
                     <p class="heading">Animales</p>
-                    <p class="title">822</p>
+                    <p class="title">985</p>
                 </div>
             </div>
             <div class="level-item has-text-centered">
                 <div>
                     <p class="heading">Fotos de animales</p>
-                    <p class="title">3334</p>
+                    <p class="title">3831</p>
                 </div>
             </div>
             <div class="level-item has-text-centered">
                 <div>
                     <p class="heading">Artículos</p>
-                    <p class="title">210</p>
+                    <p class="title">200</p>
                 </div>
             </div>
             <div class="level-item has-text-centered">
                 <div>
                     <p class="heading">Voluntarios</p>
-                    <p class="title">44</p>
+                    <p class="title">57</p>
                 </div>
             </div>
             <div class="level-item has-text-centered">
                 <div>
                     <p class="heading">Visitas/mes</p>
-                    <p class="title">~2000</p>
+                    <p class="title">+2400</p>
                 </div>
             </div>
         </nav>
