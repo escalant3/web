@@ -14,18 +14,17 @@ Route::get('/desarrolladores', ['as' => 'devs', 'uses' => 'HomeController@devs']
 Route::get('/blog', ['as' => 'blog', 'uses' => 'HomeController@blog']);
 Route::post('/contact', ['as' => 'contact', 'uses' => 'HomeController@contact']);
 
-Route::group(['prefix' => 'api', 'as' => 'api.'], function() {
-    Route::group(['prefix' => 'posts', 'as' => 'posts.'], function() {
-        Route::get('/', function() {
+Route::group(['prefix' => 'api', 'as' => 'api.'], function () {
+    Route::group(['prefix' => 'posts', 'as' => 'posts.'], function () {
+        Route::get('/', function () {
             return App\Post::with('user')->latest()->where('published_at', '<', date('Y-m-d H:i:s'))->get();
         });
 
-        Route::get('/{id}', function($id) {
+        Route::get('/{id}', function ($id) {
             return App\Post::with('user')->latest()->where('published_at', '<', date('Y-m-d H:i:s'))->findOrFail($id);
         });
     });
 });
-
 
 /*
 |--------------------------------------------------------------------------
@@ -41,7 +40,7 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => 'auth'], fu
     Route::get('/', ['as' => 'index', 'uses' => 'AdminController@index']);
     Route::post('/upload-image', ['as' => 'upload_image', 'uses' => 'AdminController@upload_image']);
 
-    Route::group(['prefix' => 'posts', 'as' => 'posts.', 'namespace' => 'Admin'], function() {
+    Route::group(['prefix' => 'posts', 'as' => 'posts.', 'namespace' => 'Admin'], function () {
         Route::get('/', ['as' => 'index', 'uses' => 'PostsController@index']);
         Route::get('create', ['as' => 'create', 'uses' => 'PostsController@create']);
         Route::post('/', ['as' => 'store', 'uses' => 'PostsController@store']);
@@ -50,13 +49,13 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => 'auth'], fu
         Route::get('{id}/delete', ['as' => 'delete', 'uses' => 'PostsController@delete']);
     });
 
-    Route::group(['prefix' => 'api', 'as' => 'api.', 'namespace' => 'Admin'], function() {
-        Route::group(['prefix' => 'posts', 'as' => 'posts.'], function() {
-            Route::get('/', function() {
+    Route::group(['prefix' => 'api', 'as' => 'api.', 'namespace' => 'Admin'], function () {
+        Route::group(['prefix' => 'posts', 'as' => 'posts.'], function () {
+            Route::get('/', function () {
                 return App\Post::latest()->get();
             });
 
-            Route::get('/{post}', function(App\Post $post) {
+            Route::get('/{post}', function (App\Post $post) {
                 return $post;
             });
         });

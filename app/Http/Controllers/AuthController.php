@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Auth;
-use Validator;
 use Illuminate\Http\Request;
+use Validator;
 
 class AuthController extends Controller
 {
@@ -22,12 +22,13 @@ class AuthController extends Controller
     public function authenticate(Request $request)
     {
         $v = Validator::make($request->all(), [
-            'email' => 'required|email|exists:users,email',
-            'password' => 'required'
+            'email'    => 'required|email|exists:users,email',
+            'password' => 'required',
         ]);
 
         if ($v->fails()) {
             flash('Los datos introducidos no son correctos.', 'error');
+
             return redirect()->back()->withErrors($v);
         }
 
@@ -36,6 +37,7 @@ class AuthController extends Controller
         }
 
         flash('Los datos introducidos no son correctos.', 'error');
+
         return redirect()->back();
     }
 

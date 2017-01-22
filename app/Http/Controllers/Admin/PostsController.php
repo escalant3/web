@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers\Admin;
 
-use Auth;
-use App\Post;
-use Validator;
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Post;
+use Auth;
+use Illuminate\Http\Request;
+use Validator;
 
 class PostsController extends Controller
 {
@@ -30,14 +30,15 @@ class PostsController extends Controller
     public function store(Request $request)
     {
         $v = Validator::make($request->all(), [
-            'title' => 'required|max:200',
-            'slug' => 'required',
+            'title'    => 'required|max:200',
+            'slug'     => 'required',
             'category' => 'required',
-            'body' => 'required|max:20000'
+            'body'     => 'required|max:20000',
         ]);
 
         if ($v->fails()) {
             flash($v->messages()->first(), 'error');
+
             return redirect()->back()->withInput()->withErrors($v);
         }
 
@@ -55,14 +56,15 @@ class PostsController extends Controller
     public function update(Request $request, $id)
     {
         $v = Validator::make($request->all(), [
-            'title' => 'required|max:200',
-            'slug' => 'required',
+            'title'    => 'required|max:200',
+            'slug'     => 'required',
             'category' => 'required',
-            'body' => 'required|max:20000'
+            'body'     => 'required|max:20000',
         ]);
 
         if ($v->fails()) {
             flash($v->messages()->first(), 'error');
+
             return redirect()->back()->withInput()->withErrors($v);
         }
 
@@ -77,6 +79,7 @@ class PostsController extends Controller
         Auth::user()->posts()->findOrFail($id)->delete();
 
         flash('Artículo eliminado correctamente');
+
         return redirect()->route('admin.posts.index');
     }
 }
