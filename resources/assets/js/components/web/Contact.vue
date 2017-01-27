@@ -51,6 +51,7 @@
                     </form>
                 </div>
                 <div class="column is-4 contact-social is-hidden-mobile">
+                    <p>Si tienes problemas con el formulario, puedes enviar un mensaje a: <a href="mailto:web@protecms.com">web@protecms.com</a></p>
                     <p>Puedes contactar usando el formulario de contacto de la izquierda o mediante los siguientes enlaces a las redes sociales.</p>
                     <p>No dudes en enviarnos un mensaje, aunque solo sea para darnos una sugerencia para mejorar el proyecto, contarnos algún caso o anécdota. ¡Nos encanta leeros!</p>
                     <hr>
