@@ -110,6 +110,14 @@
                     <a href="http://amancu.protecms.com/" _target="blank"><img src="/images/shelters/amancu.png" alt="" class="image"></a>
                     <h5>Amancu</h5>
                 </div>
+                <div class="column is-3 is-half-mobile">
+                    <a href="http://canaryanimalrescue.protecms.com/" _target="blank"><img src="/images/shelters/canaryanimalrescue.png" alt="" class="image"></a>
+                    <h5>Canary Animal Rescue</h5>
+                </div>
+                <div class="column is-3 is-half-mobile">
+                    <a href="http://animalistasnavalcarnero.protecms.com/" _target="blank"><img src="/images/shelters/animalistasnavalcarnero.jpg" alt="" class="image"></a>
+                    <h5>Animalistas Navalcarnero</h5>
+                </div>
             </div>
         </div>
     </div>
