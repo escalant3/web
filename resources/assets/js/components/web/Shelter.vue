@@ -7,108 +7,116 @@
 
             <div class="columns is-multiline is-mobile">
                 <div class="column is-3 is-half-mobile">
-                    <a href="http://animalesenapurosavila.protecms.com/" _target="blank"><img src="/images/shelters/animalesenapurosavila.png" alt="" class="image"></a>
+                    <a href="http://animalesenapurosavila.protecms.com/" target="_blank"><img src="/images/shelters/animalesenapurosavila.png" alt="" class="image"></a>
                     <h5>Animales en Apuros Ávila</h5>
                 </div>
                 <div class="column is-3 is-half-mobile">
-                    <a href="http://hakucan.com" _target="blank"><img src="/images/shelters/hakucan.png" alt="" class="image"></a>
+                    <a href="http://hakucan.com" target="_blank"><img src="/images/shelters/hakucan.png" alt="" class="image"></a>
                     <h5>Hakucan</h5>
                 </div>
                 <div class="column is-3 is-half-mobile">
-                    <a href="http://acogidafelina.org/" _target="blank"><img src="/images/shelters/acogidafelina.png" alt="" class="image"></a>
+                    <a href="http://acogidafelina.org/" target="_blank"><img src="/images/shelters/acogidafelina.png" alt="" class="image"></a>
                     <h5>Acogida Felina</h5>
                 </div>
                 <div class="column is-3 is-half-mobile">
-                    <a href="http://paternaanimalista.protecms.com/" _target="blank"><img src="/images/shelters/paternaanimalista.png" alt="" class="image"></a>
+                    <a href="http://paternaanimalista.protecms.com/" target="_blank"><img src="/images/shelters/paternaanimalista.png" alt="" class="image"></a>
                     <h5>Paterna Animalista</h5>
                 </div>
                 <div class="column is-3 is-half-mobile">
-                    <a href="http://gatsolivella.protecms.com/" _target="blank"><img src="/images/shelters/gatsolivella.png" alt="" class="image"></a>
+                    <a href="http://gatsolivella.protecms.com/" target="_blank"><img src="/images/shelters/gatsolivella.png" alt="" class="image"></a>
                     <h5>Gats d' Olivella</h5>
                 </div>
                 <div class="column is-3 is-half-mobile">
-                    <a href="http://gatsigossos.protecms.com/" _target="blank"><img src="/images/shelters/gatsigossos.jpg" alt="" class="image"></a>
+                    <a href="http://gatsigossos.protecms.com/" target="_blank"><img src="/images/shelters/gatsigossos.jpg" alt="" class="image"></a>
                     <h5>Gats I Gossos</h5>
                 </div>
                 <div class="column is-3 is-half-mobile">
-                    <a href="http://apaexoticos.protecms.com/" _target="blank"><img src="/images/shelters/apaexoticos.jpg" alt="" class="image"></a>
+                    <a href="http://apaexoticos.protecms.com/" target="_blank"><img src="/images/shelters/apaexoticos.jpg" alt="" class="image"></a>
                     <h5>APAExóticos</h5>
                 </div>
                 <div class="column is-3 is-half-mobile">
-                    <a href="http://cambiandomiradas.es/" _target="blank"><img src="/images/shelters/cambiandomiradas.jpg" alt="" class="image"></a>
+                    <a href="http://cambiandomiradas.es/" target="_blank"><img src="/images/shelters/cambiandomiradas.jpg" alt="" class="image"></a>
                     <h5>Cambiando Miradas</h5>
                 </div>
                 <div class="column is-3 is-half-mobile">
-                    <a href="http://apahuellacanina.protecms.com/" _target="blank"><img src="/images/shelters/apahuellacanina.jpg" alt="" class="image"></a>
+                    <a href="http://apahuellacanina.protecms.com/" target="_blank"><img src="/images/shelters/apahuellacanina.jpg" alt="" class="image"></a>
                     <h5>APA Huella Canina</h5>
                 </div>
                 <div class="column is-3 is-half-mobile">
-                    <a href="http://assac.cat/" _target="blank"><img src="/images/shelters/assac.jpg" alt="" class="image"></a>
+                    <a href="http://assac.cat/" target="_blank"><img src="/images/shelters/assac.jpg" alt="" class="image"></a>
                     <h5>ASSAC</h5>
                 </div>
                 <div class="column is-3 is-half-mobile">
-                    <a href="http://mogudagatuna.protecms.com/" _target="blank"><img src="/images/shelters/moguda.jpg" alt="" class="image"></a>
+                    <a href="http://mogudagatuna.protecms.com/" target="_blank"><img src="/images/shelters/moguda.jpg" alt="" class="image"></a>
                     <h5>Moguda</h5>
                 </div>
                 <div class="column is-3 is-half-mobile">
-                    <a href="http://adomel.protecms.com/" _target="blank"><img src="/images/shelters/adomel.jpg" alt="" class="image"></a>
+                    <a href="http://adomel.protecms.com/" target="_blank"><img src="/images/shelters/adomel.jpg" alt="" class="image"></a>
                     <h5>Adomel</h5>
                 </div>
                 <div class="column is-3 is-half-mobile">
-                    <a href="http://bastayademaltratoanimal.protecms.com/" _target="blank"><img src="/images/shelters/bastaya.jpg" alt="" class="image"></a>
+                    <a href="http://bastayademaltratoanimal.protecms.com/" target="_blank"><img src="/images/shelters/bastaya.jpg" alt="" class="image"></a>
                     <h5>Bastaya</h5>
                 </div>
                 <div class="column is-3 is-half-mobile">
-                    <a href="http://proyectocuatropatas.protecms.com/" _target="blank"><img src="/images/shelters/proyectocuatropatas.jpg" alt="" class="image"></a>
+                    <a href="http://proyectocuatropatas.protecms.com/" target="_blank"><img src="/images/shelters/proyectocuatropatas.jpg" alt="" class="image"></a>
                     <h5>Proyecto Cuatro Patas</h5>
                 </div>
                 <div class="column is-3 is-half-mobile">
-                    <a href="http://difusionfelinapontevedra.protecms.com/" _target="blank"><img src="/images/shelters/difusionfelina.jpg" alt="" class="image"></a>
+                    <a href="http://difusionfelinapontevedra.protecms.com/" target="_blank"><img src="/images/shelters/difusionfelina.jpg" alt="" class="image"></a>
                     <h5>Difusión Felina</h5>
                 </div>
                 <div class="column is-3 is-half-mobile">
-                    <a href="http://nhara.protecms.com/" _target="blank"><img src="/images/shelters/nhara.jpg" alt="" class="image"></a>
+                    <a href="http://nhara.protecms.com/" target="_blank"><img src="/images/shelters/nhara.jpg" alt="" class="image"></a>
                     <h5>Nhara</h5>
                 </div>
                 <div class="column is-3 is-half-mobile">
-                    <a href="http://animalets.protecms.com/" _target="blank"><img src="/images/shelters/animalets.jpg" alt="" class="image"></a>
+                    <a href="http://animalets.protecms.com/" target="_blank"><img src="/images/shelters/animalets.jpg" alt="" class="image"></a>
                     <h5>Animalets</h5>
                 </div>
                 <div class="column is-3 is-half-mobile">
-                    <a href="http://apaeavium.protecms.com/" _target="blank"><img src="/images/shelters/apaeavium.jpg" alt="" class="image"></a>
+                    <a href="http://apaeavium.protecms.com/" target="_blank"><img src="/images/shelters/apaeavium.jpg" alt="" class="image"></a>
                     <h5>APAE Avium</h5>
                 </div>
                 <div class="column is-3 is-half-mobile">
-                    <a href="http://apaca.protecms.com/" _target="blank"><img src="/images/shelters/apaca.png" alt="" class="image"></a>
+                    <a href="http://apaca.protecms.com/" target="_blank"><img src="/images/shelters/apaca.png" alt="" class="image"></a>
                     <h5>Apaca</h5>
                 </div>
                 <div class="column is-3 is-half-mobile">
-                    <a href="http://huellasdesarria.protecms.com/" _target="blank"><img src="/images/shelters/huellasdesarria.png" alt="" class="image"></a>
+                    <a href="http://huellasdesarria.protecms.com/" target="_blank"><img src="/images/shelters/huellasdesarria.png" alt="" class="image"></a>
                     <h5>Huellas de Sarria</h5>
                 </div>
                 <div class="column is-3 is-half-mobile">
-                    <a href="http://adopcionescc.protecms.com/" _target="blank"><img src="/images/shelters/adopcionescc.png" alt="" class="image"></a>
+                    <a href="http://adopcionescc.protecms.com/" target="_blank"><img src="/images/shelters/adopcionescc.png" alt="" class="image"></a>
                     <h5>AdopcionesCC</h5>
                 </div>
                 <div class="column is-3 is-half-mobile">
-                    <a href="http://asociacionlara.protecms.com/" _target="blank"><img src="/images/shelters/asociacionlara.png" alt="" class="image"></a>
+                    <a href="http://asociacionlara.protecms.com/" target="_blank"><img src="/images/shelters/asociacionlara.png" alt="" class="image"></a>
                     <h5>Asociación Lara</h5>
                 </div>
                 <div class="column is-3 is-half-mobile">
-                    <a href="http://nuevavida.protecms.com/" _target="blank"><img src="/images/shelters/nuevavida.png" alt="" class="image"></a>
+                    <a href="http://nuevavida.protecms.com/" target="_blank"><img src="/images/shelters/nuevavida.png" alt="" class="image"></a>
                     <h5>Nueva Vida</h5>
                 </div>
                 <div class="column is-3 is-half-mobile">
-                    <a href="http://asociaciontara.protecms.com/" _target="blank"><img src="/images/shelters/asociaciontara.png" alt="" class="image"></a>
+                    <a href="http://asociaciontara.protecms.com/" target="_blank"><img src="/images/shelters/asociaciontara.png" alt="" class="image"></a>
                     <h5>Asociación Tara</h5>
                 </div>
                 <div class="column is-3 is-half-mobile">
-                    <a href="http://pelutsnavarcles.protecms.com/" _target="blank"><img src="/images/shelters/pelutsnavarcles.png" alt="" class="image"></a>
+                    <a href="http://pelutsnavarcles.protecms.com/" target="_blank"><img src="/images/shelters/pelutsnavarcles.png" alt="" class="image"></a>
                     <h5>Peluts Navarcles</h5>
                 </div>
                 <div class="column is-3 is-half-mobile">
-                    <a href="http://amancu.protecms.com/" _target="blank"><img src="/images/shelters/amancu.png" alt="" class="image"></a>
+                    <a href="http://amancu.protecms.com/" target="_blank"><img src="/images/shelters/amancu.png" alt="" class="image"></a>
                     <h5>Amancu</h5>
+                </div>
+                <div class="column is-3 is-half-mobile">
+                    <a href="http://canaryanimalrescue.protecms.com/" target="_blank"><img src="/images/shelters/canaryanimalrescue.png" alt="" class="image"></a>
+                    <h5>Canary Animal Rescue</h5>
+                </div>
+                <div class="column is-3 is-half-mobile">
+                    <a href="http://animalistasnavalcarnero.protecms.com/" target="_blank"><img src="/images/shelters/animalistasnavalcarnero.jpg" alt="" class="image"></a>
+                    <h5>Animalistas Navalcarnero</h5>
                 </div>
             </div>
         </div>
