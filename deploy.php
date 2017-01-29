@@ -1,5 +1,7 @@
 <?php
+
 namespace Deployer;
+
 require 'recipe/laravel.php';
 
 // Configuration
@@ -20,14 +22,13 @@ server('production', 'protecms.com')
     ->identityFile('~/.ssh/id_rsa.pub', '~/.ssh/id_rsa')
     ->set('deploy_path', 'PATH');
 
-
 // Tasks
 
-task('composer:install', function() {
+task('composer:install', function () {
     run('cd {{release_path}} && composer install');
 });
 
-task('compile:assets', function() {
+task('compile:assets', function () {
     run('cd {{release_path}} && npm install && gulp --production');
 });
 
