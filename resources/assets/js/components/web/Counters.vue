@@ -29,13 +29,13 @@
             <div class="level-item has-text-centered">
                 <div>
                     <p class="heading">Visitas/mes</p>
-                    <p class="title">+2800</p>
+                    <p class="title">+3000</p>
                 </div>
             </div>
             <div class="level-item has-text-centered">
                 <div>
                     <p class="heading">Páginas vistas/mes</p>
-                    <p class="title">+26.000</p>
+                    <p class="title">+30.000</p>
                 </div>
             </div>
         </nav>
