@@ -12,11 +12,11 @@ set('writable_mode', 'chmod');
 
 add('shared_files', []);
 add('shared_dirs', [
-    'public/images/uploads'
+    'public/images/uploads',
 ]);
 
 add('writable_dirs', [
-    'public/images/uploads'
+    'public/images/uploads',
 ]);
 
 // Servers
