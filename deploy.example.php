@@ -11,9 +11,13 @@ set('writable_use_sudo', false);
 set('writable_mode', 'chmod');
 
 add('shared_files', []);
-add('shared_dirs', []);
+add('shared_dirs', [
+    'public/images/uploads'
+]);
 
-add('writable_dirs', []);
+add('writable_dirs', [
+    'public/images/uploads'
+]);
 
 // Servers
 
