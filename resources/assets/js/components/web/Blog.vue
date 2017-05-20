@@ -3,7 +3,7 @@
         <h1>Blog de ProteCMS</h1>
         
         <div class="post" v-for="post in posts">
-            <h2><a :href="'/blog/' + post.slug + '-' + post.id">{{ post.title }}</a></h2>
+            <h2><a :href="'/blog/' + post.slug">{{ post.title }}</a></h2>
             <p class="post-info">
                 Escrito por {{ post.user.name }}<br>
                 Publicado el {{ post.published_at | moment }} en {{ post.category }}
