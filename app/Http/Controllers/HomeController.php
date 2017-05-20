@@ -61,9 +61,11 @@ class HomeController extends Controller
     /**
      * @return \Illuminate\View\View
      */
-    public function blog_post()
+    public function blog_post($slug, $id)
     {
-        return view('web.post');
+        return view('web.post', [
+            'id' => $id
+        ]);
     }
 
     /**

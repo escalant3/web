@@ -2,6 +2,6 @@
 
 @section('content')
     
-    <post post_id="{{ Request::route('id') }}"></post>
+    <post post_id="{{ $id }}"></post>
 
 @endsection

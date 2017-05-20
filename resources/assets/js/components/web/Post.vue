@@ -1,9 +1,8 @@
 <template>
-    <div class="container blog">
-        <h1>Blog de ProteCMS</h1>
+    <div class="container blog blog-post">
+        <h1>{{ post.title }}</h1>
         
-        <div class="post">
-            <h2>{{ post.title }}</h2>
+        <div class="post post-single">
             <p class="post-info">
                 Escrito por {{ post.user.name }}<br>
             </p>
