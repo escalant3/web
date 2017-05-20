@@ -21,8 +21,8 @@ Route::group(['prefix' => 'api', 'as' => 'api.'], function () {
             return App\Post::with('user')->latest()->where('published_at', '<', date('Y-m-d H:i:s'))->get();
         });
 
-        Route::get('/{id}', function ($id) {
-            return App\Post::with('user')->latest()->where('published_at', '<', date('Y-m-d H:i:s'))->findOrFail($id);
+        Route::get('/{slug}', function ($slug) {
+            return App\Post::with('user')->latest()->where('published_at', '<', date('Y-m-d H:i:s'))->findOrFail($slug);
         });
     });
 });

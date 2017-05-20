@@ -15,7 +15,7 @@
 
 <script>
     export default {
-        props: ['post_id'],
+        props: ['slug'],
 
         data: function () {
             return {
@@ -28,7 +28,7 @@
         },
 
         created: function () {
-            $.getJSON('/api/posts/' + this.post_id, function(post) {
+            $.getJSON('/api/posts/' + this.slug, function(post) {
                 this.post = post;
             }.bind(this));
         },
