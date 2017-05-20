@@ -2,8 +2,8 @@
     <nav class="nav">
         <div class="container">
             <div class="nav-left">
-                <a class="nav-item">
-                    <a href="/"><img src="/images/logos/logo_text.png" alt="ProteCMS"></a>
+                <a href="/" class="nav-item logo">
+                    <img src="/images/logos/logo_text.png" alt="ProteCMS">
                 </a>
             </div>
 
