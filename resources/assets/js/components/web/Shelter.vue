@@ -118,6 +118,34 @@
                     <a href="http://animalistasnavalcarnero.protecms.com/" target="_blank"><img src="/images/shelters/animalistasnavalcarnero.jpg" alt="" class="image"></a>
                     <h5>Animalistas Navalcarnero</h5>
                 </div>
+                <div class="column is-3 is-half-mobile">
+                    <a href="http://refugiolareserva.protecms.com/" target="_blank"><img src="/images/shelters/refugiolareserva.png" alt="" class="image"></a>
+                    <h5>Refugio Canino La Reserva</h5>
+                </div>
+                <div class="column is-3 is-half-mobile">
+                    <a href="http://huellassalvadas.com/" target="_blank"><img src="/images/shelters/huellassalvadas.png" alt="" class="image"></a>
+                    <h5>Huellas salvadas</h5>
+                </div>
+                <div class="column is-3 is-half-mobile">
+                    <a href="http://aracea.protecms.com/" target="_blank"><img src="/images/shelters/aracea.png" alt="" class="image"></a>
+                    <h5>Aracea Rescate Animal</h5>
+                </div>
+                <div class="column is-3 is-half-mobile">
+                    <a href="http://ascanelda.org/" target="_blank"><img src="/images/shelters/ascanelda.png" alt="" class="image"></a>
+                    <h5>Asociación Canina Ascan Elda</h5>
+                </div>
+                <div class="column is-3 is-half-mobile">
+                    <a href="http://gatosconalma.protecms.com/" target="_blank"><img src="/images/shelters/gatosconalma.png" alt="" class="image"></a>
+                    <h5>Gatos Con Alma</h5>
+                </div>
+                <div class="column is-3 is-half-mobile">
+                    <a href="http://sitgesangels.protecms.com/" target="_blank"><img src="/images/shelters/sitgesangels.png" alt="" class="image"></a>
+                    <h5>ASSOCIACIÓ ANIMALISTA SITGES ANGELS</h5>
+                </div>
+                <div class="column is-3 is-half-mobile">
+                    <a href="http://vicarcanfelina.protecms.com/" target="_blank"><img src="/images/shelters/vicarcanfelina.png" alt="" class="image"></a>
+                    <h5>Vicar can felina Red Solidaria</h5>
+                </div>
             </div>
         </div>
     </div>
