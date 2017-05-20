@@ -140,7 +140,7 @@
                 </div>
                 <div class="column is-3 is-half-mobile">
                     <a href="http://sitgesangels.protecms.com/" target="_blank"><img src="/images/shelters/sitgesangels.png" alt="" class="image"></a>
-                    <h5>ASSOCIACIÓ ANIMALISTA SITGES ANGELS</h5>
+                    <h5>Associació Animalista Sitges Angels</h5>
                 </div>
                 <div class="column is-3 is-half-mobile">
                     <a href="http://vicarcanfelina.protecms.com/" target="_blank"><img src="/images/shelters/vicarcanfelina.png" alt="" class="image"></a>
