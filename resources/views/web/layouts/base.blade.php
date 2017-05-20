@@ -40,7 +40,7 @@ Creado por Jaime Sares <http://jaimesares.com>
     <meta name="twitter:creator" content="@jaimesares"/>
     <meta name="twitter:image" content="http://protecms.com/images/logos/logo_original.png">
 
-    <link rel="stylesheet" href="{{ elixir('/css/app.css') }}">
+    <link rel="stylesheet" href="{{ elixir('css/app.css') }}">
     <link rel="icon" href="/favicon.png" type="image/png" />
 </head>
 <body>
@@ -55,7 +55,7 @@ Creado por Jaime Sares <http://jaimesares.com>
 
     </div>
 
-    <script src="{{ elixir('/js/app.js') }}"></script>
+    <script src="{{ elixir('js/app.js') }}"></script>
     <script src="https://use.fontawesome.com/2d8c1723ba.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/locale/es.js"></script>
