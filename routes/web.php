@@ -12,6 +12,7 @@ Route::get('/politica-de-privacidad', ['as' => 'policy', 'uses' => 'HomeControll
 Route::get('/terminos-y-condiciones', ['as' => 'terms', 'uses' => 'HomeController@terms']);
 Route::get('/desarrolladores', ['as' => 'devs', 'uses' => 'HomeController@devs']);
 Route::get('/blog', ['as' => 'blog', 'uses' => 'HomeController@blog']);
+Route::get('/blog/{slug}-{id}', ['as' => 'blog_post', 'uses' => 'HomeController@blog_post']);
 Route::post('/contact', ['as' => 'contact', 'uses' => 'HomeController@contact']);
 
 Route::group(['prefix' => 'api', 'as' => 'api.'], function () {

@@ -17,6 +17,7 @@ Vue.component('terms', require('./components/web/Terms.vue'));
 Vue.component('policy', require('./components/web/Policy.vue'));
 Vue.component('devs', require('./components/web/Devs.vue'));
 Vue.component('blog', require('./components/web/Blog.vue'));
+Vue.component('post', require('./components/web/Post.vue'));
 
 /**
  * Admin components

@@ -2,11 +2,10 @@
     <div class="container blog">
         <h1>Blog de ProteCMS</h1>
         
-        <div class="post" v-for="post in posts">
-            <h2><a :href="'/blog/' + post.slug + '-' + post.id">{{ post.title }}</a></h2>
+        <div class="post">
+            <h2>{{ post.title }}</h2>
             <p class="post-info">
                 Escrito por {{ post.user.name }}<br>
-                Publicado el {{ post.published_at | moment }} en {{ post.category }}
             </p>
             <div class="post-body" v-html="post.body"></div>
         </div>
@@ -17,15 +16,21 @@
 
 <script>
     export default {
+        props: ['post_id'],
+
         data: function () {
             return {
-                posts: []
+                post: {
+                    user: {
+                        name: ''
+                    }
+                }
             };
         },
 
         created: function () {
-            $.getJSON('/api/posts', function(posts) {
-                this.posts = posts;
+            $.getJSON('/api/posts/' + this.post_id, function(post) {
+                this.post = post;
             }.bind(this));
         },
 

@@ -59,6 +59,14 @@ class HomeController extends Controller
     }
 
     /**
+     * @return \Illuminate\View\View
+     */
+    public function blog_post()
+    {
+        return view('web.post');
+    }
+
+    /**
      * @return \Illuminate\Http\RedirectResponse
      */
     public function contact(Request $request)
