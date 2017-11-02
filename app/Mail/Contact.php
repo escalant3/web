@@ -30,6 +30,7 @@ class Contact extends Mailable
     public function build()
     {
         return $this->subject('Nuevo mensaje de contacto')
-            ->view('emails.contact');
+            ->view('emails.contact')
+            ->replyTo($request->get('email'));
     }
 }
