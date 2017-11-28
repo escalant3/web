@@ -19,7 +19,7 @@
             </div>
             <div class="feature column is-one-third">
                 <h4>Actualizaciones</h4>
-                <p>Se van aplicando <strong>mejoras y correciones automáticamente</strong>. Además, las protectoras van aportando ideas, sugerencias y reportan errores que son implementadas o corregidos en poco tiempo.</p>
+                <p>Se van aplicando <strong>mejoras y correcciones automáticamente</strong>. Además, las protectoras van aportando ideas, sugerencias y reportan errores que son implementadas o corregidos en poco tiempo.</p>
             </div>
             <div class="feature column is-one-third">
                 <h4>Seguridad</h4>
